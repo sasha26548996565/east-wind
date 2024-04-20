@@ -26,7 +26,7 @@
                 <div class="text-center">
                     <a href="{{ route('home') }}" class="inline-block" rel="home">
                         <img src="{{ Vite::asset('/resources/images/logo.png') }}" style="border-radius: 100%"
-                            class="w-[120px] xs:w-[70px] md:w-[50px] h-[120px] xs:h-[70px] md:h-[50px]" alt="East wind>
+                            class="w-[120px] xs:w-[70px] md:w-[50px] h-[120px] xs:h-[70px] md:h-[50px]" alt="East wind">
                     </a>
                 </div>
                 @yield('content')
