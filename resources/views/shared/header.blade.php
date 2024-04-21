@@ -20,11 +20,7 @@
                         </svg>
                     </button>
                 </form>
-                <nav class="hidden 2xl:flex gap-8">
-                    <a href="{{ route('home') }}" class="text-white hover:text-pink font-bold">Главная</a>
-                    <a href="{{ route('bot.index') }}" class="text-white hover:text-pink font-bold">Бот</a>
-                    <a href="{{ route('chat.index') }}" class="text-white hover:text-pink font-bold">Чат</a>
-                </nav>
+                @include('shared.menu', ['class' => 'hidden 2xl:flex gap-8'])
             </div><!-- /.header-menu -->
             <div class="header-actions flex items-center gap-3 md:gap-5">
                 @guest
@@ -142,11 +138,7 @@
 				</div>
 			</div>
             @endguest
-			<nav class="flex flex-col mt-8">
-				<a href="{{ route('home') }}" class="self-start py-1 text-dark hover:text-pink text-md font-bold">Главная</a>
-				<a href="{{ route('bot.index') }}" class="self-start py-1 text-dark hover:text-pink text-md font-bold">Бот</a>
-				<a href="{{ route('chat.index') }}" class="self-start py-1 text-dark hover:text-pink text-md font-bold">Чат</a>
-			</nav>
+            @include('shared.menu', ['class' => 'flex flex-col mt-8'])
 			<div class="flex flex-wrap items-center space-x-6 mt-8">
 				<a href="#" class="inline-flex items-center text-darkblue hover:text-purple" target="_blank" rel="nofollow noopener">
 					<img class="h-5 lg:h-6" src="{{ Vite::asset('/resources/images/icons/youtube.svg') }}" alt="YouTube">
