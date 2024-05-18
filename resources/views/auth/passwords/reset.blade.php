@@ -1,7 +1,7 @@
 @extends('layouts.auth')
 
 @section('content')
-    <x-forms.auth-forms title='Восстановить пароль' action="{{ route('reset.update') }}" method="POST">
+    <x-forms.auth-forms title='Восстановить пароль' action="{{ route('password.update') }}" method="POST">
         @csrf
 
         <input type="hidden" name="token" value="{{ $token }}">

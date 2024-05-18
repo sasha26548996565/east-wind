@@ -13,7 +13,7 @@ final class BotRegistrar implements RouteRegistrarContract
 {
     public function map(Registrar $registrar): void
     {
-        Route::middleware('web')->group(function () {
+        Route::middleware(['web', 'auth', 'verified'])->group(function () {
             Route::name('bot.')->prefix('bot')->controller(BotController::class)->group(function () {
                 Route::get('/', 'renderPage')->name('index');
                 Route::post('/send-message', 'sendMessage')->name('sendMessage');

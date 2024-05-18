@@ -13,7 +13,7 @@ final class ChatRegistrar implements RouteRegistrarContract
 {
     public function map(Registrar $registrar): void
     {
-        Route::middleware('web')->group(function () {
+        Route::middleware(['web', 'auth', 'verified'])->group(function () {
             Route::name('chat.')->prefix('chat')->controller(ChatController::class)->group(function () {
                 Route::get('/', 'renderPage')->name('index');
             });
