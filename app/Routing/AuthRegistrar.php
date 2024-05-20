@@ -14,7 +14,9 @@ final class AuthRegistrar implements RouteRegistrarContract
     public function map(Registrar $registrar): void
     {
         Route::middleware('web')->group(function () {
-            Auth::routes();
+            Auth::routes([
+                'verify' => true
+            ]);
         });
     }
 }
