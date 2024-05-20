@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>@yield('title', $title ?? 'East wind')</title>
+        <title>@yield('title', $title ?? config('app.name'))</title>
         <meta name="description" content="Регистрация или вход">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 

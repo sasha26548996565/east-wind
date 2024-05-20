@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', 'East wind')</title>
+        <title>@yield('title', config('app.name'))</title>
 
         <meta name="description" content="Главная страница">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">

@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'East wind'),
+    'name' => env('APP_NAME', 'Build your life'),
 
     /*
     |--------------------------------------------------------------------------
