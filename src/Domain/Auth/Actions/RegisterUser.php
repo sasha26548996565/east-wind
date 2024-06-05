@@ -8,7 +8,6 @@ use Domain\Auth\Models\User;
 use Spatie\Permission\Models\Role;
 use Illuminate\Support\Facades\Hash;
 use Domain\Auth\DTOs\RegisterUserDTO;
-use Illuminate\Auth\Events\Registered;
 use Domain\Auth\Contracts\RegisterUserContract;
 
 class RegisterUser implements RegisterUserContract
@@ -22,8 +21,6 @@ class RegisterUser implements RegisterUserContract
         ]);
 
         $this->attachUserRole($user);
-
-        event(new Registered($user));
 
         return $user;
     }
