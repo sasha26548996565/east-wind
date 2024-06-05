@@ -1,4 +1,8 @@
 {
+  "resources/fonts/Gilroy-Black.ttf": {
+    "file": "assets/Gilroy-Black-68176a37.ttf",
+    "src": "resources/fonts/Gilroy-Black.ttf"
+  },
   "resources/fonts/Gilroy-Black.woff2": {
     "file": "assets/Gilroy-Black-cf204b09.woff2",
     "src": "resources/fonts/Gilroy-Black.woff2"
@@ -6,6 +10,14 @@
   "resources/fonts/Gilroy-Bold.woff2": {
     "file": "assets/Gilroy-Bold-05391b44.woff2",
     "src": "resources/fonts/Gilroy-Bold.woff2"
+  },
+  "resources/fonts/Gilroy-Bold.ttf": {
+    "file": "assets/Gilroy-Bold-ed3a99e5.ttf",
+    "src": "resources/fonts/Gilroy-Bold.ttf"
+  },
+  "resources/fonts/Gilroy-Medium.ttf": {
+    "file": "assets/Gilroy-Medium-ce8d455b.ttf",
+    "src": "resources/fonts/Gilroy-Medium.ttf"
   },
   "resources/fonts/Gilroy-Medium.woff2": {
     "file": "assets/Gilroy-Medium-e61f2165.woff2",
@@ -15,13 +27,13 @@
     "file": "assets/Gilroy-Regular-8bbb8f0f.ttf",
     "src": "resources/fonts/Gilroy-Regular.ttf"
   },
-  "resources/fonts/Gilroy-Black.ttf": {
-    "file": "assets/Gilroy-Black-68176a37.ttf",
-    "src": "resources/fonts/Gilroy-Black.ttf"
-  },
   "resources/fonts/Gilroy-Regular.woff2": {
     "file": "assets/Gilroy-Regular-8ae963ef.woff2",
     "src": "resources/fonts/Gilroy-Regular.woff2"
+  },
+  "resources/fonts/Gilroy-SemiBold.ttf": {
+    "file": "assets/Gilroy-SemiBold-32eb47df.ttf",
+    "src": "resources/fonts/Gilroy-SemiBold.ttf"
   },
   "resources/fonts/Gilroy-SemiBold.woff2": {
     "file": "assets/Gilroy-SemiBold-d8e57f7f.woff2",
@@ -30,18 +42,6 @@
   "resources/images/logo.png": {
     "file": "assets/logo-020de200.png",
     "src": "resources/images/logo.png"
-  },
-  "resources/fonts/Gilroy-SemiBold.ttf": {
-    "file": "assets/Gilroy-SemiBold-32eb47df.ttf",
-    "src": "resources/fonts/Gilroy-SemiBold.ttf"
-  },
-  "resources/fonts/Gilroy-Medium.ttf": {
-    "file": "assets/Gilroy-Medium-ce8d455b.ttf",
-    "src": "resources/fonts/Gilroy-Medium.ttf"
-  },
-  "resources/fonts/Gilroy-Bold.ttf": {
-    "file": "assets/Gilroy-Bold-ed3a99e5.ttf",
-    "src": "resources/fonts/Gilroy-Bold.ttf"
   },
   "resources/sass/app.scss": {
     "file": "assets/app-3ee67dfc.css",
