@@ -19,18 +19,22 @@
         <meta name="theme-color" content="#1E1F43">
 
         @vite(['resources/css/app.css', 'resources/sass/main.sass', 'resources/js/app.js'])
+        @yield('scripts')
     </head>
 
     <body>
         @include('shared.header')
+
+        @yield('chat')
 
         <main class="py-16 lg:py-20">
             <div class="container">
                 @yield('content')
             </div>
         </main>
-
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+        @include('shared.footer')
     </body>
 
 </html>

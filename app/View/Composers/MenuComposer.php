@@ -14,8 +14,7 @@ class MenuComposer implements ComposerContract
     {
         $menu = Menu::make()
             ->addItem(MenuItem::make(route('home'), 'Главная'))
-            ->addItem(MenuItem::make(route('bot.index'), 'Бот'))
-            ->addItem(MenuItem::make(route('chat.index'), 'Чат'));
+            ->addItem(MenuItem::make(route('bot.index'), 'Бот'));
 
         $view->with('menu', $menu);
     }

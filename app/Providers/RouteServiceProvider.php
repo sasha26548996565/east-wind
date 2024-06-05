@@ -10,6 +10,7 @@ use App\Routing\BotRegistrar;
 use Illuminate\Http\Response;
 use App\Routing\AuthRegistrar;
 use App\Routing\ChatRegistrar;
+use App\Routing\AdminRegistrar;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Cache\RateLimiting\Limit;
 use App\Contracts\RouteRegistrarContract;
@@ -26,6 +27,7 @@ class RouteServiceProvider extends ServiceProvider
         BotRegistrar::class,
         ChatRegistrar::class,
         AuthRegistrar::class,
+        AdminRegistrar::class,
     ];
 
     public function boot(): void

@@ -11,10 +11,7 @@
 @endif
 
 {{-- Intro Lines --}}
-@foreach ($introLines as $line)
-{{ $line }}
-
-@endforeach
+@lang('Пожалуйста, нажмите на кнопку и подтвердите свой e-mail')
 
 {{-- Action Button --}}
 @isset($actionText)
@@ -29,19 +26,8 @@
 </x-mail::button>
 @endisset
 
-{{-- Outro Lines --}}
-@foreach ($outroLines as $line)
-{{ $line }}
-
-@endforeach
-
-{{-- Salutation --}}
-@if (! empty($salutation))
-{{ $salutation }}
-@else
 @lang('С уважением'),<br>
 {{ config('app.name') }}
-@endif
 
 {{-- Subcopy --}}
 @isset($actionText)
