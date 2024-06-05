@@ -9,12 +9,11 @@
 
         <meta name="description" content="Главная страница">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ Vite::asset('/resources/images/logo.png') }}">
+{{-- 
+        <link rel="apple-touch-icon" sizes="180x180"
         <link rel="icon" type="image/png" sizes="32x32"
-            href="{{ Vite::asset('/resources/images/logo.png') }}">
 
-        <link rel="mask-icon" href="{{ Vite::asset('/resources/images/logo.png') }}" color="#1E1F43">
+        <link rel="mask-icon"  color="#1E1F43"> --}}
         <meta name="msapplication-TileColor" content="#1E1F43">
         <meta name="theme-color" content="#1E1F43">
 
