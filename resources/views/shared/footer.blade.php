@@ -15,7 +15,7 @@
              <div class="footer-social order-1 lg:order-2 basis-full sm:basis-1/2 lg:basis-1/3 mt-8 sm:mt-0"
                  style="font-size: 1.2rem;">
                  <div class="flex flex-wrap items-center justify-center sm:justify-end space-x-6">
-                     <a href="#" class="inline-flex items-center text-white hover:text-pink" target="_blank"
+                     <a href="tg://resolve?domain=r00t_S" class="inline-flex items-center text-white hover:text-pink" target="_blank"
                          rel="nofollow noopener">
                          <img class="h-7 lg:h-8" src="{{ Vite::asset('resources/images/icons/telegram.svg') }}"
                              alt="Telegram">

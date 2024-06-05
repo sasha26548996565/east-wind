@@ -43,11 +43,7 @@
             @endguest
             @include('shared.menu', ['class' => 'flex flex-col mt-8'])
 			<div class="flex flex-wrap items-center space-x-6 mt-8">
-				<a href="#" class="inline-flex items-center text-darkblue hover:text-purple" target="_blank" rel="nofollow noopener">
-					<img class="h-5 lg:h-6" src="{{ Vite::asset('/resources/images/icons/youtube.svg') }}" alt="YouTube">
-					<span class="ml-2 lg:ml-3 text-xxs font-semibold">YouTube</span>
-				</a>
-				<a href="#" class="inline-flex items-center text-darkblue hover:text-purple" target="_blank" rel="nofollow noopener">
+				<a href="tg://resolve?domain=r00t_S" class="inline-flex items-center text-darkblue hover:text-purple" target="_blank" rel="nofollow noopener">
 					<img class="h-5 lg:h-6" src="{{ Vite::asset('/resources/images/icons/telegram.svg') }}" alt="Telegram">
 					<span class="ml-2 lg:ml-3 text-xxs font-semibold">Telegram</span>
 				</a>

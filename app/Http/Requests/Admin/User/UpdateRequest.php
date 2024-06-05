@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Requests\Bot;
+namespace App\Http\Requests\Admin\User;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class MessageRequest extends FormRequest
+class UpdateRequest extends FormRequest
 {
     public function authorize(): bool
     {
@@ -16,7 +16,7 @@ class MessageRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'message' => ['required', 'string']
+            'available_messages' => 'required|integer'
         ];
     }
 }
