@@ -14,7 +14,7 @@ final class BotRegistrar implements RouteRegistrarContract
     public function map(Registrar $registrar): void
     {
         Route::middleware('web')->group(function () {
-            Route::name('bot.')->prefix('bot')->middleware(['auth', 'verified'])->controller(BotController::class)->group(function () {
+            Route::name('bot.')->prefix('bot')->middleware(['auth'])->controller(BotController::class)->group(function () {
                 Route::get('/', 'renderPage')->name('index');
                 Route::get('/get-messages', 'getMessages')->name('getMessages');
                 Route::get('/get-available-messages-count', 'getAvailableMessagesCount')->name('getAvailableMessagesCount');

@@ -15,7 +15,7 @@ final class AdminRegistrar implements RouteRegistrarContract
 {
     public function map(Registrar $registrar): void
     {
-        Route::middleware(['web', 'auth', 'verified', 'role:admin'])->name('admin.')->prefix('admin')->group(function () {
+        Route::middleware(['web', 'auth', 'role:admin'])->name('admin.')->prefix('admin')->group(function () {
             Route::name('user.')->prefix('user')->group(function () {
                 Route::get('/', IndexController::class)->name('index');
                 Route::get('/edit/{user}', EditController::class)->name('edit');
