@@ -3,7 +3,7 @@
          <div class="flex flex-wrap lg:flex-nowrap items-center">
              <div class="footer-logo order-0 basis-full sm:basis-1/2 lg:basis-1/3 shrink-0 text-center sm:text-left">
                  <a href="{{ route('home') }}" class="inline-block" rel="home">
-                     <img src="{{ Vite::asset('/resources/images/logo.png') }}" class="w-[90px] h-[90px]"
+                     <img src="{{ asset('/images/logo.png') }}" class="w-[90px] h-[90px]"
                          style="border-radius: 100%;" alt="{{ config('app.name') }}">
                  </a>
              </div><!-- /.footer-logo -->
@@ -17,7 +17,7 @@
                  <div class="flex flex-wrap items-center justify-center sm:justify-end space-x-6">
                      <a href="tg://resolve?domain=r00t_S" class="inline-flex items-center text-white hover:text-pink" target="_blank"
                          rel="nofollow noopener">
-                         <img class="h-7 lg:h-8" src="{{ Vite::asset('resources/images/icons/telegram.svg') }}"
+                         <img class="h-7 lg:h-8" src="{{ asset('/images/icons/telegram.svg') }}"
                              alt="Telegram">
                          <span class="ml-2 lg:ml-3 text-sm lg:text-xs font-semibold">Telegram</span>
                      </a>

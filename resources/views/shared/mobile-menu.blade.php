@@ -3,7 +3,7 @@
 		<div class="mmenu-heading flex items-center pt-6 xl:pt-12">
 			<div class="shrink-0 grow">
 				<a href="{{ route('home') }}" rel="home">
-					<img src="{{ Vite::asset('/resources/images/logo.png') }}" style="border-radius: 100%;"
+					<img src="{{ asset('/images/logo.png') }}" style="border-radius: 100%;"
                         class="w-[120px] xs:w-[50px] md:w-[50px] h-[120px] xs:h-[50px] md:h-[50px]" alt="East wind">
 				</a>
 			</div>
@@ -44,7 +44,7 @@
             @include('shared.menu', ['class' => 'flex flex-col mt-8'])
 			<div class="flex flex-wrap items-center space-x-6 mt-8">
 				<a href="tg://resolve?domain=r00t_S" class="inline-flex items-center text-darkblue hover:text-purple" target="_blank" rel="nofollow noopener">
-					<img class="h-5 lg:h-6" src="{{ Vite::asset('/resources/images/icons/telegram.svg') }}" alt="Telegram">
+					<img class="h-5 lg:h-6" src="{{ asset('/images/icons/telegram.svg') }}" alt="Telegram">
 					<span class="ml-2 lg:ml-3 text-xxs font-semibold">Telegram</span>
 				</a>
 			</div>

@@ -8,8 +8,6 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/sass/main.sass',
                 'resources/js/app.js',
-                'resources/images/logo.png',
-                'resources/images/icons/telegram.svg'
             ],
             refresh: true,
         }),

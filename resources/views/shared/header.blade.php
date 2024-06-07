@@ -3,7 +3,7 @@
         <div class="header-inner flex items-center justify-between lg:justify-start">
             <div class="header-logo shrink-0">
                 <a href="{{ route('home') }}" rel="home">
-                    <img src="{{ Vite::asset('/resources/images/logo.png') }}" style="border-radius: 100%;"
+                    <img src="{{ asset('/images/logo.png') }}" style="border-radius: 100%;"
                         class="w-[120px] xs:w-[50px] md:w-[50px] h-[120px] xs:h-[50px] md:h-[50px]" alt="East wind">
                 </a>
             </div><!-- /.header-logo -->
