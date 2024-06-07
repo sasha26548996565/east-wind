@@ -7,13 +7,13 @@
     "file": "assets/Gilroy-Black-cf204b09.woff2",
     "src": "resources/fonts/Gilroy-Black.woff2"
   },
-  "resources/fonts/Gilroy-Bold.woff2": {
-    "file": "assets/Gilroy-Bold-05391b44.woff2",
-    "src": "resources/fonts/Gilroy-Bold.woff2"
-  },
   "resources/fonts/Gilroy-Bold.ttf": {
     "file": "assets/Gilroy-Bold-ed3a99e5.ttf",
     "src": "resources/fonts/Gilroy-Bold.ttf"
+  },
+  "resources/fonts/Gilroy-Bold.woff2": {
+    "file": "assets/Gilroy-Bold-05391b44.woff2",
+    "src": "resources/fonts/Gilroy-Bold.woff2"
   },
   "resources/fonts/Gilroy-Medium.ttf": {
     "file": "assets/Gilroy-Medium-ce8d455b.ttf",

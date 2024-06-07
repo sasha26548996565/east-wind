@@ -4,7 +4,7 @@
              <div class="footer-logo order-0 basis-full sm:basis-1/2 lg:basis-1/3 shrink-0 text-center sm:text-left">
                  <a href="{{ route('home') }}" class="inline-block" rel="home">
                      <img src="{{ Vite::asset('/resources/images/logo.png') }}" class="w-[90px] h-[90px]"
-                         style="border-radius: 100%;" alt="CutCode">
+                         style="border-radius: 100%;" alt="{{ config('app.name') }}">
                  </a>
              </div><!-- /.footer-logo -->
              <div class="footer-copyright order-2 lg:order-1 basis-full lg:basis-1/3 mt-8 lg:mt-0">
