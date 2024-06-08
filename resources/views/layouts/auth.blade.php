@@ -10,6 +10,9 @@
         <meta name="msapplication-TileColor" content="#1E1F43">
         <meta name="theme-color" content="#1E1F43">
 
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/images/logo.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/images/logo.png') }}">
+
         @vite(['resources/css/app.css', 'resources/sass/main.sass', 'resources/js/app.js'])
     </head>
 

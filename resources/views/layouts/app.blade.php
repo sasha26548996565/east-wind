@@ -10,9 +10,8 @@
         <meta name="description" content="Главная страница">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-        <link rel="apple-touch-icon" sizes="180x180"
-        <link rel="icon" type="image/png" sizes="32x32"
-
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/images/logo.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/images/logo.png') }}">
 
         @vite(['resources/css/app.css', 'resources/sass/main.sass', 'resources/js/app.js'])
         @yield('scripts')
