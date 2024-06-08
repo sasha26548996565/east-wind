@@ -4,10 +4,10 @@
             <div class="header-logo shrink-0">
                 <a href="{{ route('home') }}" rel="home">
                     <img src="{{ asset('/images/logo.png') }}" style="border-radius: 100%;"
-                        class="w-[120px] xs:w-[50px] md:w-[50px] h-[120px] xs:h-[50px] md:h-[50px]" alt="East wind">
+                        class="w-[80px] xs:w-[50px] md:w-[50px] h-[80px] xs:h-[50px] md:h-[50px]" alt="East wind">
                 </a>
             </div><!-- /.header-logo -->
-            <div class="header-menu grow lg:flex items-center ml-8 mr-8 gap-8">
+            <div class="header-menu grow hidden lg:flex items-center ml-8 mr-8 gap-8">
                 {{-- <form class="hidden lg:flex gap-3">
                     <input type="search"
                         class="w-full h-12 px-4 rounded-lg border border-body/10 focus:border-pink focus:shadow-[0_0_0_3px_#EC4176] bg-white/5 text-white text-xs shadow-transparent outline-0 transition"
@@ -20,7 +20,7 @@
                         </svg>
                     </button>
                 </form> --}}
-                @include('shared.menu', ['class' => 'flex gap-5'])
+                @include('shared.menu', ['class' => 'flex gap-5', 'colorText' => 'text-white'])
             </div><!-- /.header-menu -->
             <div class="header-actions flex items-center gap-3 md:gap-5">
                 @guest

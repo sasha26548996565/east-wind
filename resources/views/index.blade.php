@@ -3,16 +3,15 @@
 @section('content')
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div>
-            <h2 class="text-lg lg:text-[42px] font-black">Проблема</h2>
+            <h2 class="text-lg lg:text-[42px] font-black">Успейте приобрести!</h2>
             <div class="mt-8 p-3 sm:p-4 2xl:p-6 rounded-xl bg-card text-xxs sm:text-xs lg:text-sm text-white font-semibold">
-                В мире насчитывается 1,2 миллиарда подростков, и, по оценкам, психическими расстройствами страдает каждый
-                <strong>седьмой</strong> подросток в возрасте <strong>10–19 лет</strong> (14%), что составляет
-                <strong>168,000,000</strong>
-                человек. Однако эти проблемы остаются в значительной степени непризнанными и без лечения
+                Только сейчас по цене <strong>2000</strong> тг! Не упустите шанс, скоро цена поднимется до <strong>5000</strong> тг.
+                За 2000тг вы получаете следующее: <strong>200</strong> сообщений нашему боту без временных ограничений!
+                Свяжитесь с нами в <a class="text-pink" href="tg://resolve?domain=r00t_S">телеграме</a>, чтобы скорее приобрести бота!
             </div>
         </div>
         <div>
-            <h2 class="text-lg lg:text-[42px] font-black">Решение</h2>
+            <h2 class="text-lg lg:text-[42px] font-black">О нас</h2>
             <div class="mt-8 p-3 sm:p-4 2xl:p-6 rounded-xl bg-card text-xxs sm:text-xs lg:text-sm text-white font-semibold">
                 Build your life помогает людям, нуждающимся в эмоциональной
                 поддержке,
