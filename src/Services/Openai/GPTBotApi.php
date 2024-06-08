@@ -33,8 +33,8 @@ class GPTBotApi implements GPTBotApiContract
                 'max_tokens' => 2000
             ]);
             
-            dd($response->json(), config('openai.token'));
             $message = $response->json()['choices'][0]['message']['content'];
+            
             return $message;
         } catch (Throwable $exception) {
             throw new Exception($exception->getMessage());
