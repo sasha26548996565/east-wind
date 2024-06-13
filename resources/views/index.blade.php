@@ -4,10 +4,38 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div>
             <h2 class="text-lg lg:text-[42px] font-black">Успейте приобрести!</h2>
-            <div class="mt-8 p-3 sm:p-4 2xl:p-6 rounded-xl bg-card text-xxs sm:text-xs lg:text-sm text-white font-semibold">
-                Только сейчас по цене <strong>2000</strong> тг! Не упустите шанс, скоро цена поднимется до <strong>5000</strong> тг.
-                За 2000тг вы получаете следующее: <strong>200</strong> сообщений нашему боту без временных ограничений!
-                Свяжитесь с нами в <a class="text-pink" href="tg://resolve?domain=r00t_S">телеграме</a>, чтобы скорее приобрести бота!
+            <div
+                class="mt-8 p-3 sm:p-4 2xl:p-6 rounded-xl bg-blue-800 text-xs sm:text-sm lg:text-base text-white font-semibold shadow-lg">
+                Только сейчас по цене <strong class="text-yellow-300">2000</strong> тг! Не упустите шанс, скоро цена
+                поднимется до <strong class="text-red-500">5000</strong> тг.
+                За 2000тг вы получаете следующее: <strong class="text-green-300">200</strong> сообщений нашему боту без
+                временных ограничений! <br>
+                <a class="btn btn-pink" href="tg://resolve?domain=r00t_S">Хочу купить!</a>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-lg lg:text-[42px] font-black">Как начать пользоваться нашим ботом</h2>
+            <div
+                class="mt-8 p-3 sm:p-4 2xl:p-6 rounded-xl bg-blue-800 text-xs sm:text-sm lg:text-base text-white font-semibold shadow-lg">
+                <div class="flex items-start space-x-4">
+                    <div
+                        class="flex-shrink-0 bg-pink text-black rounded-full h-8 w-8 flex items-center justify-center font-bold">
+                        1</div>
+                    <p class="flex-1">Зарегистрируйтесь на нашем сайте, чтобы получить доступ к услугам бота.</p>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div
+                        class="flex-shrink-0 bg-pink text-black rounded-full h-8 w-8 flex items-center justify-center font-bold">
+                        2</div>
+                    <p class="flex-1">Напишите админу в <a class="text-pink-400 underline"
+                            href="tg://resolve?domain=r00t_S">Телеграме</a> для оплаты и активации вашего аккаунта.</p>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div
+                        class="flex-shrink-0 bg-pink text-black rounded-full h-8 w-8 flex items-center justify-center font-bold">
+                        3</div>
+                    <p class="flex-1">После подтверждения оплаты, бот станет доступен для использования!</p>
+                </div>
             </div>
         </div>
         <div>

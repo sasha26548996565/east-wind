@@ -30,7 +30,7 @@ class GPTBotApi implements GPTBotApiContract
                 ],
                 'model' => 'gpt-3.5-turbo',
                 'temperature' => 0.7,
-                'max_tokens' => 2000
+                'max_tokens' => 300
             ]);
             
             $message = $response->json()['choices'][0]['message']['content'];

@@ -42,9 +42,9 @@
         <form id="chatForm" class="flex gap-3">
             @csrf
 
-            <input type="text" id="message" name="message"
+            <textarea type="text" id="message" name="message"
                 class="w-full h-12 px-4 rounded-lg border border-body/10 focus:border-pink focus:shadow-[0_0_0_3px_#EC4176] bg-white/5 text-white text-xs shadow-transparent outline-0 transition"
-                placeholder="Напишите сообщение..." required>
+                placeholder="Напишите сообщение..." required></textarea>
 
             <button type="submit" class="shrink-0 w-12 !h-12 !px-0 btn btn-pink">
                 <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -138,6 +138,9 @@
                         addMessage(message, true);
                         scrollMessagesToBottom();
 
+                        let $submitButton = $('#chatForm button[type="submit"]');
+                        $submitButton.prop('disabled', true);
+
                         $.ajax({
                             url: "{{ route('bot.sendMessage') }}",
                             type: 'POST',
@@ -147,13 +150,19 @@
                             },
                             success: function(data) {
                                 addMessage(data.message, false);
+
                                 scrollMessagesToBottom();
                                 updateAvailableMessages();
+
                                 $('#message').val('');
+                                
+                                setTimeout(() => {
+                                    $submitButton.prop('disabled', false);
+                                }, 5000);
                             },
                             error: function(xhr, status, error) {
                                 alert(xhr.responseJSON.message);
-                                location.reaload();
+                                location.reload();
                             }
                         });
                     }
