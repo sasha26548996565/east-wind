@@ -3,6 +3,7 @@
 @section('title', 'Бот')
 
 @section('chat')
+    {{ dd(config('context.teenagers') . getLastMessagesInText(), config('context.additional_info')) }}
     <!-- component -->
     <div class="flex antialiased h-screen text-gray-800">
         <div class="flex flex-row h-full w-full overflow-x-hidden">
